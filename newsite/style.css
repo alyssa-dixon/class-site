@@ -1,0 +1,36 @@
+body{
+    color:darkslategray;
+    background-color:blanchedalmond;
+    max-width:600px;
+    margin: 0 auto;
+}
+
+p {
+    background-color:burlywood;
+    border: 1px dashed;
+    padding: 20px;
+    text-align: center;
+    /* height: 200px; */
+}
+
+p:hover {
+    background-color:azure;
+}
+
+a {
+    color:darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkslategray;
+    text-decoration: line-through;
+}
+
+.special {
+    font-size:25px;
+}
+
+.new {
+    background-color:burlywood;
+}
