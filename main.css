@@ -29,3 +29,30 @@ body {
     text-align:center;
 }
 
+.fontsizelarge {
+    font-size:3cm;
+}
+
+.sticky {
+    position:sticky;
+    top:0px;
+    right:20px;
+}
+
+.circle {
+    background-color:darkseagreen;
+    width:1050px;
+    height:80px;
+    border:1px solid;
+    border-radius:100%;
+    position:fixed;
+    margin-top:-50px;
+    top:20%;
+    left:20%;
+    filter:blur(15px);
+    z-index:-1;
+}
+
+.space {
+    padding:100px;
+}
