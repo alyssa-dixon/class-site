@@ -1,0 +1,44 @@
+body {
+    background-color:darksalmon;
+}
+
+.space {
+    margin:0px;
+}
+
+h1 {
+    color:brown;
+    text-shadow: 2px 2px 6px tomato;
+    margin-left:650px;
+}
+
+.position {
+    margin-left:700px;
+    margin-bottom:500px;
+    margin-top:0px;
+}
+
+p {
+    color:brown;
+    max-width: 400px;
+}
+
+img {
+    opacity:0.5;
+    }
+    
+    img:hover {
+        opacity:1.0;
+    }
+
+    .text {
+        color:brown;
+        margin-top:-400px;
+        
+    }
+
+    .orientation {
+        margin-left:1150px;
+        margin-top:700px;
+        max-width:400px;
+    }
