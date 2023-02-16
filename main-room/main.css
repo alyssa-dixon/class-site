@@ -1,0 +1,67 @@
+body {
+    /* background-image: url("background.png"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+    /* display:flex; */
+    height:100vh;
+    margin:0;
+    justify-content:center;
+    align-items:center;
+}
+
+.clip {
+   clip-path: url(#clip);
+}
+
+.viewport {
+    background:white;
+    width:900px;
+    height:550px;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    /* background-attachment: fixed; */
+}
+
+.doorknob {
+    position: absolute;
+    left:145px;
+    bottom:185px;
+    background-color:white;
+    height:25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+.doorknob-right {
+    position: absolute;
+    right:117px;
+    bottom:193px;
+    background-color:white;
+    height:25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+.doorknob-center {
+    position: absolute;
+    right:392px;
+    bottom:215px;
+    background-color:white;
+    height:20px;
+    width:20px;
+    border-radius: 100%;
+}
+
+.type {
+    color:brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
