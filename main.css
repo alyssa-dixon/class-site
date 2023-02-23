@@ -22,12 +22,17 @@
     font-style: normal;
 }
 
+img {
+    position: relative;
+    left:50vh;
+}
+
 body {
     font-family: 'Avara_Bold', serif;
-    font-size: 30px;
+    font-size: 20px;
     background-color:rgb(192, 226, 163);
     color:mediumpurple;
-    text-align:center;
+    text-align:left;
 }
 
 .fontsizelarge {
@@ -42,19 +47,28 @@ body {
 
 .circle {
     background-color:darkseagreen;
-    width:1050px;
+    width:2000px;
     height:80px;
     border:1px solid;
     border-radius:100%;
     position:fixed;
-    margin-top:-50px;
-    top:20%;
-    left:20%;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
     filter:blur(15px);
     z-index:-1;
 }
 
 .space {
     padding:100px;
+    text-align: end;
 }
 
+a {
+    text-decoration: none;
+}
+
+p:hover {
+    color:blueviolet;
+    text-decoration: line-through;
+}
