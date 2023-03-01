@@ -4,25 +4,27 @@
 
 body {
     margin:0;
+    background-image: url("background.png");
+    /* width:1080px; */
+    /* height:700px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .flexbox {
     height:100vh;
     width:100vw;
-    background-color: bisque;
+    /* background-color: bisque; */
     display:flex;
-    align-items:flex-end;
-    justify-content:center;
+    align-items:flex-start;
+    justify-content:space-evenly;
     overflow:hidden;
+    border:40px solid bisque;
+    padding-top: 30px;
 }
 
 .background {
-    background-image: url("background.png");
-    width:1080px;
-    height:700px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     position:fixed;
     top:50%;
     left:50%;
@@ -32,10 +34,9 @@ body {
 
 .circle-center {
     background-color:bisque;
-    position:absolute;
     top:180px;
-    width:5vw;
-    height:5vw;
+    width:50px;
+    height:50px;
     border-radius:100%;
     animation: pulse 1s infinite alternate ease;
     
@@ -43,51 +44,48 @@ body {
 
 .circle-farleft {
     background-color:bisque;
-    position:absolute;
     top:180px;
     left:100px;
-    width:5vw;
-    height:5vw;
+    width:50px;
+    height:50px;
     border-radius:100%;
     animation: pulse 1s infinite alternate ease;
 }
 
 .circle-left {
     background-color:bisque;
-    position:absolute;
     top:180px;
     left:325px;
-    width:5vw;
-    height:5vw;
+    width:50px;
+    height:50px;
     border-radius:100%;
     animation: pulse 1s infinite alternate ease;
 }
 
 .circle-farright {
     background-color:bisque;
-    position:absolute;
     top:180px;
     right:100px;
-    width:5vw;
-    height:5vw;
+    width:50px;
+    height:50px;
     border-radius:100%;
     animation: pulse 1s infinite alternate ease;
 }
 
 .circle-right {
     background-color:bisque;
-    position:absolute;
     top:180px;
     right:325px;
-    width:5vw;
-    height:5vw;
+    width:50px;
+    height:50px;
     border-radius:100%;
     animation: pulse 1s infinite alternate ease;
 }
 
 .image {
     bottom:0;
-    left:0;
+    left:50%;
+    position:fixed;
     animation: paws 3s infinite alternate ease;
 }
 
@@ -105,19 +103,19 @@ body {
 
 @keyframes paws {
     0% {
-        transform: translateY(500%);
+        transform: translate(-50%,500%);
     }
 
     50% {
-        transform: translateY(-20%);
+        transform: translate(-50%,-20%);
     }
 
     75% {
-        transform: translateY(-175%);
+        transform: translate(-50%,-175%);
     }
 
     100% {
-        transform: translateY(200%);
+        transform: translate(-50%,200%);
     }
 }
 
