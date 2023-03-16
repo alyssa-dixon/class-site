@@ -4,6 +4,7 @@
          url('fonts/bold/avara-bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    
 }
 
 @font-face {
@@ -12,6 +13,7 @@
          url('fonts/bolditalic/Avara-Bold_Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
+    
 }
 
 @font-face {
@@ -20,6 +22,7 @@
          url('fonts/black/Avara-Black.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
+    
 }
 
 img {
@@ -27,16 +30,23 @@ img {
     left:50vh;
 }
 
+p {
+    color:whitesmoke;
+}
+
 body {
     font-family: 'Avara_Bold', serif;
     font-size: 20px;
-    background-color:rgb(192, 226, 163);
-    color:mediumpurple;
-    text-align:left;
+    /* background-color:rgb(192, 226, 163); */
+    color:whitesmoke;
+    text-align:right;
+    background-image: url("1copy.png");
+    background-size:30%;
 }
 
 .fontsizelarge {
     font-size:3cm;
+    text-align:left;
 }
 
 .sticky {
@@ -45,7 +55,7 @@ body {
     right:20px;
 }
 
-.circle {
+/* .circle { */
     background-color:darkseagreen;
     width:2000px;
     height:80px;
@@ -66,9 +76,25 @@ body {
 
 a {
     text-decoration: none;
+    color:whitesmoke;
 }
 
 p:hover {
-    color:blueviolet;
+    color:red;
     text-decoration: line-through;
+}
+
+@media screen and (max-width:800px) {
+    
+    body {
+        background:rgb(172, 15, 15);
+        transition:background 1s;
+        text-align: center;
+    }
+
+    .square {
+        height:1080px;
+        width:1920px;
+        color:rgb(172, 15, 15));
+    }
 }

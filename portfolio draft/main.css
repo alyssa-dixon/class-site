@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("1copy.png")
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height: 50%;
+    padding:10px 10px 0 10px;
+}
+
+.circle {
+    color:plum;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
