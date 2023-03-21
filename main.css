@@ -37,6 +37,10 @@ p {
 body {
     font-family: 'Avara_Bold', serif;
     font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
     /* background-color:rgb(192, 226, 163); */
     color:whitesmoke;
     text-align:right;
