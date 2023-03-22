@@ -46,6 +46,7 @@ body {
     text-align:right;
     background-image: url("1copy.png");
     background-size:30%;
+    background-color: red;
 }
 
 .fontsizelarge {
@@ -84,7 +85,7 @@ a {
 }
 
 p:hover {
-    color:red;
+    color:whitesmoke;
     text-decoration: line-through;
 }
 
@@ -110,14 +111,24 @@ html {
 ul {
     list-style-type:none;
     margin:0;
-    padding:0;
+    padding:10;
     font-family: 'Avara_Bold', serif;
+    line-height: 35px;
+    background-color: rgb(230, 71, 71);
 }
 
 .navigation {
-    position:fixed;
-    bottom:50px;
-    left:50px;
-    background:red;
+    display:block;
+    position:absolute;
+    width:150px;
+    margin-top:10px;
+    background-color: (230, 71, 71);
+    
+    /* z-index:1; */
+}
 
+.nav-img {
+    position:fixed;
+    z-index:-1;
+    right:150px;
 }
