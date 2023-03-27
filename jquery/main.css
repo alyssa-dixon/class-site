@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:plum;
+    transition: background .5s;
+}
+
+body.dark {
+    background:darkolivegreen;
+}
+
+.flex {
+    display:flex;
+    margin-top:100px;
+    justify-content: space-evenly;
+}
+
+.box {
+    width:200px;
+    height:200px;
+    background:palevioletred;
+    border:1px solid;
+    transition: background .5s, box-shadow .5s;
+    animation: spin 5s infinite linear;
+    animation-play-state: paused;
+}
+
+.box.dark {
+    background:darkkhaki;
+}
+
+.box.glow {
+    background:yellow;
+    box-shadow:0 0 10px 5px yellow;
+}
+
+.box.spin {
+    animation-play-state: running;
+}
+
+.graham-cracker {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    width:200px;
+    opacity:0;
+    transition: opacity .5s;
+}
+
+.draggable {
+    cursor: grab;
+}
+
+@keyframes spin {
+    0% {
+    transform:rotate(0);
+}
+    100% {
+    transform:rotate(360deg);
+}
+}
