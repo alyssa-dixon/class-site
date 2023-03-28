@@ -25,53 +25,45 @@
     
 }
 
-img {
-    position: relative;
-    left:50vh;
+.spirals {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
 }
 
 p {
-    color:whitesmoke;
+    color:blanchedalmond;
+    font-size: larger;
 }
 
 body {
     font-family: 'Avara_Bold', serif;
     font-size: 20px;
     display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content:flex-end;
+    /* align-items: center; */
     /* background-color:rgb(192, 226, 163); */
     color:whitesmoke;
     text-align:right;
     background-image: url("1copy.png");
     background-size:30%;
-    background-color: red;
 }
 
 .fontsizelarge {
     font-size:3cm;
     text-align:left;
-}
-
-.sticky {
-    position:sticky;
-    top:0px;
-    right:20px;
-}
-
-/* .circle { */
-    background-color:darkseagreen;
-    width:2000px;
-    height:80px;
-    border:1px solid;
-    border-radius:100%;
-    position:fixed;
-    transform:translate(-50%, -50%);
-    top:50%;
-    left:50%;
-    filter:blur(15px);
-    z-index:-1;
 }
 
 .space {
@@ -80,13 +72,16 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color:whitesmoke;
-}
-
-p:hover {
-    color:whitesmoke;
-    text-decoration: line-through;
+    font-family: 'Avara_Bold', serif;
+        color:brown;
+        background-color:blanchedalmond;
+        text-decoration: none;
+        font-size:30px;
+        padding:10px;
+        line-height: 70px;
+        border-color: brown;
+        border-style: dotted;
+        border-width: 2px;
 }
 
 @media screen and (max-width:800px) {
@@ -104,8 +99,13 @@ p:hover {
     }
 }
 
-html {
-    cursor: url("cursor.png"), auto !important;
+.text {
+    text-align: center;
+
+}
+
+/* html { */
+    /* cursor: url("cursor.png"), auto !important; */
 }
 
 ul {
@@ -114,21 +114,31 @@ ul {
     padding:10;
     font-family: 'Avara_Bold', serif;
     line-height: 35px;
-    background-color: rgb(230, 71, 71);
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 .navigation {
-    display:block;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
     position:absolute;
     width:150px;
-    margin-top:10px;
     background-color: (230, 71, 71);
     
     /* z-index:1; */
 }
 
-.nav-img {
-    position:fixed;
-    z-index:-1;
-    right:150px;
+a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+p:hover {
+    opacity: 20%;
+    transition: .5s;
+    text-decoration: none;
 }
