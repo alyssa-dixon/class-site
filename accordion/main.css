@@ -3,23 +3,18 @@
 }
 
 body {
-    background:paleturquoise;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 2s;
 }
 
 header {
     color:plum;
-    padding:20px;
     text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:none;
 }
 
-main {
-    display:flex;
-    gap:10px;
-    margin:10px 0;
-}
-
-.side {
+/* .side {
     height:50px;
     width:50px;
     background-color:orange;
@@ -28,8 +23,37 @@ main {
     display:flex;
     position: absolute;
     right:30vh;
+} */
 
+main{
+    display: flex;
+    flex-direction: column;
+}
 
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.words{
+    width: 100vw;
+    height: 20vh;
+    bottom: 20vh;
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size:200%;
+}
+
+.smile{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 
 @media screen and (max-width:2000px) {
@@ -37,6 +61,8 @@ main {
     body {
         background:palevioletred;
         transition:background 1s;
+        font-size: 100%;
+        align-items: center;
     }
 
     main {
@@ -50,13 +76,100 @@ main {
         background-color:red;
         border-radius:50%;
     }
+
+    #phrase1 {
+        display:none;
+    }
+    #phrase2 {
+        display: none;
+    }
+    #phrase3 {
+        display: none;
+    }
+    #phrase4 {
+        display: none;
+    }
+    #phrase5 {
+        display: none;
+    }
+    #smile1 {
+        display:none;
+    }
+    #smile2 {
+        display:none;
+    }
+    #smile3{
+        display: none;
+    }
+    #smile4{
+        display: none;
+    }
+    #smile5{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1800px) {
+    
+    body {
+        background-color:palevioletred;
+        transition:background 1s;
+        font-size: 100%;
+        align-items: center;
+    }
+
+    main {
+        flex-direction:column;
+    }
+
+    .side {
+        width:100%;
+        height:50px;
+        width:50px;
+        background-color:rgb(182, 13, 13);
+        border-radius:50%;
+    }
+
+    #phrase1 {
+        display:inline;
+        color: red;
+    }
+    #phrase2 {
+        display: none;
+    }
+    #phrase3 {
+        display: none;
+    }
+    #phrase4 {
+        display: none;
+    }
+    #phrase5 {
+        display: none;
+    }
+    #smile1 {
+        display:contents;
+    }
+    #smile2 {
+        display:none;
+    }
+    #smile3{
+        display: none;
+    }
+    #smile4{
+        display: none;
+    }
+    #smile5{
+        display: none;
+    }
 }
 
 @media screen and (max-width:1500px) {
     
     body {
-        background:pink;
+        background-color:pink;
         transition:background 1s;
+        font-size: 100%;
+        align-items: center;
     }
 
     main {
@@ -74,6 +187,38 @@ main {
         background-color:purple;
         border-radius:50%;
     }
+
+    #phrase1 {
+        display:none;
+    }
+    #phrase2 {
+        display: inline;
+        color:purple;
+    }
+    #phrase3 {
+        display: none;
+    }
+    #phrase4 {
+        display: none;
+    }
+    #phrase5 {
+        display: none;
+    }
+    #smile1 {
+        display:none;
+    }
+    #smile2 {
+        display:contents;
+    }
+    #smile3{
+        display: none;
+    }
+    #smile4{
+        display: none;
+    }
+    #smile5{
+        display: none;
+    }
 }
 
 @media screen and (max-width:1000px) {
@@ -81,6 +226,8 @@ main {
     body {
         background:peachpuff;
         transition:background 1s;
+        font-size: 100%;
+        align-items: center;
     }
 
     main {
@@ -94,12 +241,46 @@ main {
         background-color:orange;
         border-radius:50%;
     }
+
+    #phrase1 {
+        display:none;
+    }
+    #phrase2 {
+        display: none;
+    }
+    #phrase3 {
+        display: inline;
+        color: rgb(213, 143, 22);
+    }
+    #phrase4 {
+        display: none;
+    }
+    #phrase5 {
+        display: none;
+    }
+    #smile1 {
+        display:none;
+    }
+    #smile2 {
+        display:none;
+    }
+    #smile3{
+        display: contents;
+    }
+    #smile4{
+        display: none;
+    }
+    #smile5{
+        display: none;
+    }
 }
 
 @media screen and (max-width:800px) {
     body {
         background:palegoldenrod;
         transition:background 1s;
+        font-size: 100%;
+        align-items: center;
     }
 
     .side {
@@ -109,12 +290,46 @@ main {
         background-color:pink;
         border-radius:50%;
     }
+
+    #phrase1 {
+        display:none;
+    }
+    #phrase2 {
+        display: none;
+    }
+    #phrase3 {
+        display: none;
+    }
+    #phrase4 {
+        display: inline;
+        color:palevioletred;
+    }
+    #phrase5 {
+        display: none;
+    }
+    #smile1 {
+        display:none;
+    }
+    #smile2 {
+        display:none;
+    }
+    #smile3{
+        display: none;
+    }
+    #smile4{
+        display: contents;
+    }
+    #smile5{
+        display: none;
+    }
 }
 
 @media screen and (max-width:500px) {
     body {
         background:plum;
         transition:background 1s;
+        font-size: 100%;
+        align-items: center;
     }
 
     header {
@@ -127,5 +342,37 @@ main {
         width:50px;
         background-color:plum;
         border-radius:50%;
+    }
+
+    #phrase1 {
+        display:none;
+    }
+    #phrase2 {
+        display: none;
+    }
+    #phrase3 {
+        display: none;
+    }
+    #phrase4 {
+        display: none;
+    }
+    #phrase5 {
+        display: inline;
+        color: rgb(163, 93, 163);
+    }
+    #smile1 {
+        display:none;
+    }
+    #smile2 {
+        display:none;
+    }
+    #smile3{
+        display: none;
+    }
+    #smile4{
+        display: none;
+    }
+    #smile5{
+        display: contents;
     }
 }
