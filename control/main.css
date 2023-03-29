@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family:cursive;
+    color: purple;
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+
+body {
+    background:plum;
+}
+
+img {
+    cursor: grab;
+    width:200px;
+    height:200px;
+}
+
+.flexbox {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-tile {
+    width:200px;
+    opacity:0;
+    transition: opacity .5s;
+}
+
+.spin {
+    animation: spin 2s infinite linear;
+    animation-play-state: running;
+}
+
+.draggable {
+    cursor: grab;
+}
+
+/* button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} */
+
+@keyframes spin {
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}

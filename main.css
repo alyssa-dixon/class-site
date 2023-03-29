@@ -30,16 +30,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    animation: spin 6s infinite linear;
+    transform:rotate(360deg);
 }
 
-@keyframes spin {
-    0% {
-        transform:rotate(0);
-    }
-    100% {
-        transform:rotate(360deg);
-    }
+.spirals img{
+    animation: spin 6s infinite linear;
 }
 
 p {
@@ -67,8 +62,9 @@ body {
 }
 
 .space {
-    padding:100px;
+    padding:40px;
     text-align: end;
+    margin-top: -60px;
 }
 
 a {
@@ -95,18 +91,19 @@ a {
     .square {
         height:1080px;
         width:1920px;
-        color:rgb(172, 15, 15));
+        color:rgb(172, 15, 15);
     }
 }
 
 .text {
     text-align: center;
-
+    font-size: 80px;
+    margin-bottom: -120px;
 }
 
-/* html { */
-    /* cursor: url("cursor.png"), auto !important; */
-}
+/* html {
+    cursor: url("cursor.png"), auto !important;
+} */
 
 ul {
     list-style-type:none;
@@ -128,6 +125,7 @@ li {
     position:absolute;
     width:150px;
     background-color: (230, 71, 71);
+    margin-bottom: 60px;
     
     /* z-index:1; */
 }
@@ -141,4 +139,13 @@ p:hover {
     opacity: 20%;
     transition: .5s;
     text-decoration: none;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
 }
