@@ -7,6 +7,15 @@ h1 {
     color: purple;
     font-size: 70px;
     margin-bottom: -10px;
+    text-align: center;
+}
+
+p {
+    color:brown;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: -10px;;
+    font-size: 15px;
+    text-align: center;
 }
 
 .flex {
@@ -21,14 +30,6 @@ body {
 
 img {
     cursor: grab;
-    width:200px;
-    height:200px;
-}
-
-.flexbox {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .new-tile {
@@ -37,13 +38,19 @@ img {
     transition: opacity .5s;
 }
 
-.spin {
-    animation: spin 2s infinite linear;
-    animation-play-state: running;
-}
-
 .draggable {
     cursor: grab;
+}
+
+.center {
+    align-items: center;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+    text-decoration-line: none;
+    padding:10px;
 }
 
 /* button {
@@ -53,12 +60,3 @@ img {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 } */
-
-@keyframes spin {
-    0%{
-        transform:rotate(0);
-    }
-    100%{
-        transform:rotate(360deg);
-    }
-}
