@@ -4,7 +4,7 @@
 
 h1 {
     font-family:cursive;
-    color: red;
+    color: purple;
     font-size: 70px;
     margin-bottom: -10px;
     text-align: center;
@@ -25,7 +25,7 @@ p {
 }
 
 body {
-    background:black;
+    background:plum;
 }
 
 img {
@@ -50,7 +50,7 @@ img {
 }
 
 a:hover {
-    color: red;
+    color: purple;
     text-decoration: none;
 }
 
