@@ -2,31 +2,10 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Avara_Bold';
-    src: url('fonts/bold/avara-bold.woff') format('woff'),
-         url('fonts/bold/avara-bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    
-}
-
-@font-face {
-    font-family: 'Avara_Bold';
-    src: url('fonts/bolditalic/Avara-Bold_Italic.woff') format('woff'),
-         url('fonts/bolditalic/Avara-Bold_Italic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
-    
-}
-
-@font-face {
-    font-family: 'Avara_Bold';
-    src: url('fonts/black/Avara-Black.woff') format('woff'),
-         url('fonts/black/Avara-Black.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:purple;
+    text-align: center;
 }
 
 .flex {
@@ -85,7 +64,11 @@ body {
 }
 
 p {
-    color:darkolivegreen;
+    color:purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+    margin-bottom: 60px;
     font-size: larger;
 }
 
@@ -98,6 +81,12 @@ p {
 .image2 {
     position:relative;
     width: 350px;
+    height: 450px;
+}
+
+.image3 {
+    position:relative;
+    width: 800px;
     height: 450px;
 }
 
@@ -138,7 +127,7 @@ p {
 }
 
 .image-title {
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -147,5 +136,5 @@ p {
     color: antiquewhite;
     align-items: center;
     justify-content: center;
-    font-size: small;
+    font-size: medium;
 }
