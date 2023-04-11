@@ -63,11 +63,10 @@ body {
 
 .flex {
     padding:40px;
-    text-align: center;
+    text-align:left;
     margin-top: -60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:baseline;
     padding:50px;
 }
 
@@ -130,14 +129,10 @@ li {
 }
 
 .navigation {
-    display:flex;
-    flex-direction:column;
-    justify-content: flex-start;
     position:absolute;
-    width:150px;
     background-color: (230, 71, 71);
-    top: 60px;
-    
+    right: 10px;
+    margin-bottom: 80px;
     /* z-index:1; */
 }
 
