@@ -131,7 +131,7 @@ li {
 .navigation {
     position:absolute;
     background-color: (230, 71, 71);
-    right: 10px;
+    right: 60px;
     margin-bottom: 80px;
     /* z-index:1; */
 }
