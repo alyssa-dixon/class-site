@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightslategray;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: bisque;
+    position:relative;
+    left:20%;
+    max-width: 700px;
+}
+
+h1 {
+    color: bisque;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.align {
+    position: relative;
+    left: 20%;
+}
