@@ -12,7 +12,7 @@ p {
     color: bisque;
     position:relative;
     left:20%;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 h1 {
@@ -24,5 +24,37 @@ h1 {
 
 .align {
     position: relative;
-    left: 20%;
+    font-size: 20px;
+    padding-left: 20px;
 }
+
+.move {
+    position:relative;
+    -webkit-animation-name: prop-600;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes prop-600 {
+    0% {
+        -webkit-transform: translateX(0px);
+    }
+    100% {
+        -webkit-transform: translateX(600px);
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -250px;
+  }
+
+img {
+    flex-basis: 40%;
+    margin-top: 20px;
+    margin-right: -80px;
+  }
