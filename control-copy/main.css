@@ -34,7 +34,7 @@ img {
     height:200px;
 }
 
-.new-tile {
+.new-sticker {
     width:200px;
     opacity:0;
     transition: opacity .5s;

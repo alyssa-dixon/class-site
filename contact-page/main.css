@@ -43,3 +43,10 @@ h1 {
     gap:10px;
 
 }
+
+a {
+    color:rgb(255, 251, 15);
+    font-size: 30px;
+    padding:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

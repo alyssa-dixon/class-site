@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+img {
+    background-color: transparent;
+}
+
 body {
     background: lightslategray;
     font-size: medium;
@@ -53,8 +57,13 @@ h1 {
     margin-left: -250px;
   }
 
-img {
-    flex-basis: 40%;
-    margin-top: 20px;
-    margin-right: -80px;
-  }
+.sticker {
+    background:white;
+    width:100px;
+    height:100px;
+    cursor:grab;
+}
+
+.draggable {
+    cursor: grab;
+}
