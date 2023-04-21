@@ -7,80 +7,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-        * {box-sizing: border-box}
-        body {font-family: Verdana, sans-serif; margin:0}
-        .mySlides {display: none}
-        img {vertical-align: middle;}
         
-        /* Slideshow container */
-        .slideshow-container {
-          max-width: 1000px;
-          position: relative;
-          margin: auto;
-        }
-        
-        /* Next & previous buttons */
-        .prev, .next {
-          cursor: pointer;
-          position: absolute;
-          top: 50%;
-          width: auto;
-          padding: 16px;
-          margin-top: -22px;
-          color: white;
-          font-weight: bold;
-          font-size: 18px;
-          transition: 0.6s ease;
-          border-radius: 0 3px 3px 0;
-          user-select: none;
-        }
-        
-        /* Position the "next button" to the right */
-        .next {
-          right: 0;
-          border-radius: 3px 0 0 3px;
-        }
-        
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover, .next:hover {
-          background-color: rgba(0,0,0,0.8);
-        }
-        
-        /* Caption text */
-        .text {
-          color: #f2f2f2;
-          font-size: 15px;
-          padding: 8px 12px;
-          position: absolute;
-          bottom: 8px;
-          width: 100%;
-          text-align: center;
-        }
-        
-        /* Number text (1/3 etc) */
-        .numbertext {
-          color: #f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 0;
-        }
-        
-        /* Fading animation */
-        .fade {
-          animation-name: fade;
-          animation-duration: 1.5s;
-        }
-        
-        @keyframes fade {
-          from {opacity: .4} 
-          to {opacity: 1}
-        }
-        
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-          .prev, .next,.text {font-size: 11px}
-        }
         </style>
         </head>
 </head>
@@ -151,53 +78,67 @@
                 </div>
         </div>
 
-        <div class="image">
-            <img class="image-img" src="BodyOil copy.png" alt="print">
+        <div class="slideshow-container">
+            <button class="next" name="next">+</button>
+            <button class="prev" name="prev">-</button>
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Rasananda Ayuvera Product:</div>
                     <p class="image-description">4oz Body Oil label design</p>
                 </div>
-        </div>
-
-        <div class="image">
-            <img class="image-img" src="WomensWarming copy.png" alt="print">
+                <div class="numbertext">1 / 6</div>
+                <img src="BodyOil copy.png" width="350px" height="350px">
+            </div>
+            
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Rasananda Ayuvera Product:</div>
                     <p class="image-description">Women's Warming Tonic bag label</p>
                 </div>
-        </div>
+            <div class="numbertext">2 / 6</div>
+            <img src="WomensWarming copy.png" width="350px" height="350px">
+            </div>
 
-        <div class="image">
-            <img class="image-img" src="GeneralHealth copy.png" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Rasananda Ayuvera Product:</div>
                     <p class="image-description">Layout of all 5 General Health Tonic bag labels</p>
                 </div>
-        </div>
+            <div class="numbertext">3 / 6</div>
+            <img src="GeneralHealth copy.png" width="350px" height="350px">
+            </div>
 
-        <div class="image">
-            <img class="image-img" src="KidneyHealth copy.png" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Rasananda Ayuvera Product:</div>
                     <p class="image-description">Kidney Health Tonic bag label</p>
                 </div>
-        </div>
+            <div class="numbertext">4 / 6</div>
+            <img src="KidneyHealth copy.png" width="350px" height="350px">
+            </div>
 
-        <div class="image">
-            <img class="image-img" src="LiverHealth copy.png" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Rasananda Ayuvera Product:</div>
-                    <p class="image-description">Liver Health Tonoic bag label</p>
+                    <p class="image-description">Liver Health Tonic bag label</p>
                 </div>
-        </div>
+            <div class="numbertext">5 / 6</div>
+            <img src="LiverHealth copy.png" width="350px" height="350px">
+            </div>
 
-        <div class="image">
-            <img class="image-img" src="WomensHealth copy.png" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Rasananda Ayuvera Product:</div>
                     <p class="image-description">Layout of all 4 Women's Healtth Tonic bag labels.</p>
                 </div>
+            <div class="numbertext">6 / 6</div>
+            <img src="WomensHealth copy.png" width="350px" height="350px">
+            </div>
+
         </div>
+
+
+
 
         <div class="image2">
             <img class="image-img" src="03-OM-PK-F22-DIXON copy.png" alt="print">
@@ -263,37 +204,48 @@
                 </div>
         </div>
 
-        <div class="image">
-            <img class="image-img" src="IMG_7878 copy.JPG" alt="print">
+        <div class="slideshow-container">
+            <button class="next" name="next">+</button>
+            <button class="prev" name="prev">-</button>
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Comfort in Text</div>
                     <p class="image-description">Sweatshirt, tshirt, pillowcase, and paper print for screenprint collection. This practice was to explore worlds of both printmaking and graphic design, as well as the comfort of combining both worlds into a common practuce through screenprint and handmade typefaces.</p>
                 </div>
-        </div>
-
-        <div class="image">
-            <img class="image-img" src="IMG_7879 copy.JPG" alt="print">
+                <div class="numbertext">1 / 4</div>
+                <img src="IMG_7878 copy.JPG" width="350px" height="350px">
+            </div>
+            
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Comfort in Text</div>
                     <p class="image-description">Up close image of red tshirt reads "comfort in text" in Edge Type font with white flower overlapping the text. A paper landscape print in the lower left reads the same text but in a black and red combination instead</p>
                 </div>
-        </div>
+            <div class="numbertext">2 / 4</div>
+            <img src="IMG_7879 copy.JPG" width="350px" height="350px">
+            </div>
 
-        <div class="image">
-            <img class="image-img" src="IMG_7881 copy.JPG" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Comfort in Text</div>
                     <p class="image-description">Alphabet layout of Edge Type font in black ink on red tshirt.</p>
                 </div>
-        </div>
+            <div class="numbertext">3 / 4</div>
+            <img src="IMG_7881 copy.JPG" width="350px" height="350px">
+            </div>
 
-        <div class="image">
-            <img class="image-img" src="IMG_7882 copy.JPG" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Comfort in Text</div>
                     <p class="image-description">Black sweatshirt with "comfort in text" on the front. A white flower with a curled stem is on the sides of each elbow.</p>
                 </div>
+            <div class="numbertext">4 / 4</div>
+            <img src="IMG_7882 copy.JPG" width="350px" height="350px">
+            </div>
+
         </div>
+
+
         
         <div class="image3">
             <img class="image-img" src="Screen Shot 2023-02-28 at 2.31.59 PM.png" alt="print">
@@ -315,7 +267,7 @@
             <img class="image-img" src="Final Mapping copy.jpg" alt="print">
                 <div class="image-overlay">
                     <div class="image-title">Ecosystem Mapping</div>
-                    <p class="image-description">"Collective practices in class of 2024" was a visual dive into the struggles, opportunities, and spaces tat have developed since the pandemic of 2020 began.</p>
+                    <p class="image-description">"Collective practices in class of 2024" was a visual dive into the struggles, opportunities, and spaces that have developed since the pandemic of 2020 began.</p>
                 </div>
         </div>
 
@@ -335,29 +287,40 @@
                 </div>
         </div>
 
-        <div class="image2">
-            <img class="image-img" src="CardGame1.png" alt="print">
+
+
+        <div class="slideshow-container">
+            <button class="next" name="next">+</button>
+            <button class="prev" name="prev">-</button>
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Game Translation</div>
                     <p class="image-description">Card game meant for gentle discussion and practice with small talk related topics. A lime green box contains a deck of brown cards. One card laying on the table reads, "describe your worst testing experience."</p>
                 </div>
-        </div>
-
-        <div class="image2">
-            <img class="image-img" src="CardGame2.png" alt="print">
+                <div class="numbertext">1 / 3</div>
+                <img src="CardGame1.png" width="350px" height="350px">
+            </div>
+            
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Game Translation</div>
                     <p class="image-description">Card game meant for gentle discussion and practice with small talk related topics. A lime green box has the words "small talk" in a sans serif font in a light brown shade. A single wooden dice sits next to a few scattered cards with the number 8 in lime green.</p>
                 </div>
-        </div>
+            <div class="numbertext">2 / 3</div>
+            <img src="CardGame2.png" width="350px" height="350px">
+            </div>
 
-        <div class="image2">
-            <img class="image-img" src="CardGame3.png" alt="print">
+            <div class="mySlides fade">
                 <div class="image-overlay">
                     <div class="image-title">Game Translation</div>
                     <p class="image-description">Card game meant for gentle discussion and practice with small talk related topics. A few brown cards with a row of diamonds on the top and bottom of the card reads, "describe an underground artist."</p>
                 </div>
+            <div class="numbertext">3 / 3</div>
+            <img src="CardGame3.png" width="350px" height="350px">
+            </div>
+
         </div>
+
 
         <div class="image2">
             <img class="image-img" src="EtchingHand.JPG" alt="print">
@@ -407,127 +370,233 @@
                 </div>
         </div>
 
-        <div class="image2">
-            <img class="image-img" src="ArchiveZine1.jpg" alt="print">
+
+
+    <div class="slideshow-container">
+            <button class="next" name="next">+</button>
+            <button class="prev" name="prev">-</button>
+            <div class="mySlides fade">
                 <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Title page of publication printed with process film. This publication was written in response to any topic that matters to me. The cover contains a purple flower with a serif font title that reads, "listening to our intra-personal relationships.</p>
                 </div>
+                <div class="numbertext">1 / 6</div>
+                <img src="MattersZineTitle.jpg" width="350px" height="350px">
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+                </div>
+            <div class="numbertext">2 / 6</div>
+            <img src="MattersZine1.jpg" width="350px" height="350px">
+            </div>
+
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">3 / 6</div>
+        <img src="MattersZine2.jpg" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="ArchiveZine2.jpg" alt="print">
+        <div class="mySlides fade">
                 <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
                 </div>
+            <div class="numbertext">4 / 6</div>
+            <img src="MattersZine3.jpg" width="350px" height="350px">
+            </div>
+
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">5 / 6</div>
+        <img src="MattersZine4.jpg" width="350px" height="350px">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+                </div>
+            <div class="numbertext">6 / 6</div>
+            <img src="MattersZine5.jpg" width="350px" height="350px">
+            </div>
+        </div>
+        
+
+        <div class="slideshow-container">
+            <button class="next" name="next">+</button>
+            <button class="prev" name="prev">-</button>
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Title page of publication printed with process film. This publication was written in response to any topic that matters to me. The cover contains a purple flower with a serif font title that reads, "listening to our intra-personal relationships.</p>
+                </div>
+                <div class="numbertext">1 / 5</div>
+                <img src="FinalZine.jpg" width="350px" height="350px">
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+                </div>
+            <div class="numbertext">2 / 5</div>
+            <img src="FInalZine2.jpg" width="350px" height="350px">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+                </div>
+            <div class="numbertext">3 / 5</div>
+            <img src="FInalZine3.jpg" width="350px" height="350px">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+                </div>
+            <div class="numbertext">4 / 5</div>
+            <img src="FinalZine4.jpg" width="350px" height="350px">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="image-overlay">
+                    <div class="image-title">Matters Publication</div>
+                    <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+                </div>
+            <div class="numbertext">5 / 5</div>
+            <img src="FInalZine5.jpg" width="350px" height="350px">
+            </div>
+    </div>
+
+
+
+    <div class="slideshow-container">
+        <button class="next" name="next">+</button>
+        <button class="prev" name="prev">-</button>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Title page of publication printed with process film. This publication was written in response to any topic that matters to me. The cover contains a purple flower with a serif font title that reads, "listening to our intra-personal relationships.</p>
+            </div>
+            <div class="numbertext">1 / 7</div>
+            <img src="SpeculativeObject1.jpg" width="350px" height="350px">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">2 / 7</div>
+        <img src="SpeculativeObject2.jpg" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="ArchiveZine3.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">3 / 7</div>
+        <img src="SpeculativeObject3.JPG" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="FinalZine.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">4 / 7</div>
+        <img src="SpeculativeObject4.JPG" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="FInalZine2.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">5 / 7</div>
+        <img src="SpeculativeObject5.JPG" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="FInalZine3.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">6 / 7</div>
+        <img src="SpeculativeObject6.JPG" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="FinalZine4.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">7 / 7</div>
+        <img src="SpeculativeObject7.JPG" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="FInalZine5.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+    </div>
+
+
+
+    <div class="slideshow-container">
+        <button class="next" name="next">+</button>
+        <button class="prev" name="prev">-</button>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Title page of publication printed with process film. This publication was written in response to any topic that matters to me. The cover contains a purple flower with a serif font title that reads, "listening to our intra-personal relationships.</p>
+            </div>
+            <div class="numbertext">1 / 3</div>
+            <img src="ArchiveZine1.jpg" width="350px" height="350px">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">2 / 3</div>
+        <img src="ArchiveZine2.jpg" width="350px" height="350px">
         </div>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject1.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
+        <div class="mySlides fade">
+            <div class="image-overlay">
+                <div class="image-title">Matters Publication</div>
+                <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
+            </div>
+        <div class="numbertext">3 / 3</div>
+        <img src="ArchiveZine3.jpg" width="350px" height="350px">
         </div>
+        
+    </div>
+        
+    <p>✿~thank you for visiting~✿</p>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    </body>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject2.jpg" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
-        </div>
+</html>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject3.JPG" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
-        </div>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject4.JPG" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
-        </div>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject5.JPG" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
-        </div>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject6.JPG" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
-        </div>
 
-        <div class="image">
-            <img class="image-img" src="SpeculativeObject7.JPG" alt="print">
-                <div class="image-overlay">
-                    <div class="image-title">Speculative Publication</div>
-                    <p class="image-description">Interior page with a yellow background with a small image of the instant message app box with three unread notifications.</p>
-                </div>
-        </div>
-
-        <div class="flexbox">
+        <!-- <div class="flexbox">
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -578,9 +647,9 @@
                     <div class="numbertext">5 / 6</div>
                     <img src="MattersZine4.jpg" width="350px" height="350px">
                     <div class="text"></div>
-                </div>
+                </div> -->
 
-                <div class="mySlides fade">
+                <!-- <div class="mySlides fade">
                     <div class="image-overlay">
                         <div class="image-title">Matters Publication</div>
                         <p class="image-description">Interior page of Matters Publication. This publication was written in response to any topic that matters to me.</p>
@@ -635,9 +704,4 @@
                 }
             </script>
     
-    <p>✿~thank you for visiting~✿</p>
- 
-        
-    </div>
     </body>
-        </html>

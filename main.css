@@ -54,7 +54,7 @@ body {
     text-align:right;
     background-image: url("1copy.png");
     background-size:30%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .fontsizelarge {
