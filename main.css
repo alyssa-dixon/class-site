@@ -55,6 +55,7 @@ body {
     background-image: url("1copy.png");
     background-size:30%;
     overflow-x: hidden;
+    background-color: brown;
 }
 
 .fontsizelarge {
@@ -133,7 +134,7 @@ li {
     position:absolute;
     background-color: (230, 71, 71);
     right: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     /* z-index:1; */
 }
 
