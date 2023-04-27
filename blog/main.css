@@ -16,7 +16,7 @@ p {
     color: bisque;
     position:relative;
     left:20%;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 h1 {
@@ -114,4 +114,17 @@ h1 {
 
 .openbtn:hover {
   background-color: rgb(205, 162, 144);
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+    font-size: larger;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a:hover {
+    color:lightslategray;
+    transition: 0.5s;
 }
