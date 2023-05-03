@@ -57,3 +57,9 @@ a:hover {
     right:10%;
     top:10%;
 }
+
+.end {
+    position: fixed;
+    right:30px;
+    bottom:20px;
+}

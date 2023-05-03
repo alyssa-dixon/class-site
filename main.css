@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Avara-Bold';
+    src: url('Avara-Bold.eot');
+    src: url('Avara-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Avara-Bold.woff2') format('woff2'),
+         url('Avara-Bold.woff') format('woff'),
+         url('Avara-Bold.ttf') format('truetype'),
+         url('Avara-Bold.svg#avarabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 h1 {
     font-family:Arial, Helvetica, sans-serif;
@@ -12,18 +24,18 @@ h1 {
 p {
     color:black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Avara-Bold', serif;
     margin-top: -70px;
     margin-bottom: 60px;
     font-size: medium;
 }
 
 a {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Avara-Bold', serif;;
     color:rgb(196, 135, 196);
     font-size:30px;
     padding:0px;
-    line-height: 35px;
+    line-height: 40px;
     text-decoration: none ;
 }
 
