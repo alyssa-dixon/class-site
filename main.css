@@ -132,6 +132,12 @@ h3 {
     height: 450px;
 }
 
+.image4 {
+    position:relative;
+    width: 900px;
+    height: 600px;
+}
+
 .image-img {
     display:block;
     width:100%;

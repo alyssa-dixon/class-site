@@ -32,7 +32,7 @@ p {
     font-size: 150px;
     margin-bottom: -30px;
     margin-top: -20px;
-    margin-left:50px;
+    margin-left:80px;
 }
 
 
@@ -41,7 +41,7 @@ a {
     font-family: 'Avara-Bold', serif;
     text-decoration: none;
     font-size: xx-large;
-    margin-left:80px;
+    margin-left:100px;
 }
 
 li {
@@ -54,8 +54,10 @@ a:hover {
 
 .space {
     position: fixed;
+    z-index: -1;
     right:10%;
     top:10%;
+    opacity: 60%;
 }
 
 .end {
