@@ -33,9 +33,9 @@ p {
 a {
     font-family: 'Avara-Bold', serif;;
     color:rgb(196, 135, 196);
-    font-size:30px;
+    font-size:20px;
     padding:0px;
-    line-height: 40px;
+    line-height: 30px;
     text-decoration: none ;
 }
 
@@ -213,7 +213,7 @@ h3 {
 .navigation2 {
     position: fixed;
     justify-content: baseline;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 li {

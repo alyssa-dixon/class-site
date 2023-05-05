@@ -50,6 +50,17 @@ main{
     font-size:200%;
 }
 
+.words2 {
+    position: fixed;
+    left:45%;
+    bottom:20px;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
 .smile{
     display:flex;
     justify-content: center;
