@@ -77,7 +77,7 @@ li {
 }
 
 .space {
-    position: absolute;
+    position: fixed;
     top:65%;
     left:20%;
 }
