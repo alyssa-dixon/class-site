@@ -63,13 +63,13 @@ body {
 .navigation {
     position: fixed;
     justify-content: baseline;
-    margin-top: -12px;
+    margin-top: 220px;
 }
 
 .navigation2 {
     position: fixed;
     justify-content: baseline;
-    margin-top: 400px;
+    margin-top: 620px;
 }
 
 li {
