@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Avara_Bold';
+    src: url('fonts/bold/avara-bold.woff') format('woff'),
+         url('fonts/bold/avara-bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Avara_Bold';
+    src: url('fonts/bolditalic/Avara-Bold_Italic.woff') format('woff'),
+         url('fonts/bolditalic/Avara-Bold_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: 'Avara_Bold';
+    src: url('fonts/black/Avara-Black.woff') format('woff'),
+         url('fonts/black/Avara-Black.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Avara-Bold';
+    src: url('webfonts/Bold/Avara-Bold.eot');
+    src: url('webfonts/Bold/Avara-Bold.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Bold/Avara-Bold.woff2') format('woff2'),
+         url('webfonts/Bold/Avara-Bold.woff') format('woff'),
+         url('webfonts/Bold/Avara-Bold.ttf') format('truetype'),
+         url('webfonts/Bold/Avara-Bold.svg#avarabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.spirals {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform:rotate(360deg);
+}
+
+.spirals img{
+    animation: spin 3s infinite linear;
+}
+
+p {
+    color:blanchedalmond;
+    font-size: larger;
+}
+
+body {
+    font-family: 'Avara-Bold', serif;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    /* align-items: center; */
+    /* background-color:rgb(192, 226, 163); */
+    color:whitesmoke;
+    text-align:right;
+    background-image: url("1copy.png");
+    background-size:30%;
+    overflow-x: hidden;
+    background-color: brown;
+}
+
+.fontsizelarge {
+    font-size:3cm;
+    text-align:left;
+}
+
+.flex {
+    padding:40px;
+    text-align:left;
+    margin-top: -60px;
+    display: flex;
+    justify-content:baseline;
+    padding:50px;
+}
+
+a {
+        font-family: 'Avara-Bold', serif;
+        color:brown;
+        background-color:blanchedalmond;
+        text-decoration: none;
+        font-size:30px;
+        padding:10px;
+        line-height: 70px;
+        border-color: brown;
+        border-style: dotted;
+        border-width: 2px;
+}
+
+@media screen and (max-width:800px) {
+    
+    body {
+        background:rgb(172, 15, 15);
+        transition:background 1s;
+        text-align: center;
+    }
+
+    .square {
+        height:1080px;
+        width:1920px;
+        color:rgb(172, 15, 15);
+    }
+}
+
+.text {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: -100px;
+    margin-top: -50px;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* html {
+    cursor: url("cursor.png"), auto !important;
+} */
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:10;
+    font-family: 'Avara_Bold', serif;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navigation {
+    position:absolute;
+    background-color: (230, 71, 71);
+    right: 60px;
+    margin-bottom: 60px;
+    /* z-index:1; */
+}
+
+a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+p:hover {
+    opacity: 20%;
+    transition: .5s;
+    text-decoration: none;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}

@@ -33,9 +33,9 @@ h1 {
     padding-left: 20px;
 }
 
-html {
+/* html {
     cursor: url("cursor.png"), auto !important;
-}
+} */
 
 .move {
     position:relative;
@@ -132,4 +132,10 @@ a:hover {
     color:peru;
     transition: 0.5s;
 
+}
+
+.end {
+    position: fixed;
+    right:30px;
+    top:20px;
 }

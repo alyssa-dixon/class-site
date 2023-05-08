@@ -27,11 +27,11 @@ body {
 }
 
 
-h1 {
+h3 {
     color: olive;
     font-family: 'Avara-Bold',serif;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: -20px;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 
 .end {
     position: fixed;
-    right:30px;
+    left:30px;
     top:20px;
 }
 
