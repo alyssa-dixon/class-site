@@ -54,7 +54,7 @@ body {
     /* background-color: rgb(229, 82, 82); */
     width: 500px;
     height: 450px;
-    left:5vh;
+    left:8px;
     top:5vh;
     margin-top: -50px; 
     position: fixed;
@@ -78,6 +78,6 @@ li {
 
 .space {
     position: fixed;
-    top:70%;
-    left:27%;
+    top:90%;
+    left:8%;
 }
