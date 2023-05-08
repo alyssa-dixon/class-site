@@ -54,7 +54,7 @@ body {
     /* background-color: rgb(229, 82, 82); */
     width: 500px;
     height: 450px;
-    left:0;
+    left:5px;
     top:5vh;
     margin-top: -50px; 
     position: fixed;
@@ -63,13 +63,13 @@ body {
 .navigation {
     position: fixed;
     justify-content: baseline;
-    margin-top: 220px;
+    margin-top: 200px;
 }
 
 .navigation2 {
     position: fixed;
     justify-content: baseline;
-    margin-top: 620px;
+    margin-top: 590px;
 }
 
 li {
@@ -77,7 +77,7 @@ li {
 }
 
 .space {
-    position: fixed;
+    position: absolute;
     top:65%;
     left:20%;
 }
