@@ -37,6 +37,7 @@ a {
     padding:0px;
     line-height: 30px;
     text-decoration: none ;
+    margin-left: 40px;
 }
 
 a:hover {
@@ -52,14 +53,17 @@ body {
 .box {
     /* background-color: rgb(229, 82, 82); */
     width: 500px;
-    height: 447px;
-    margin-top: 0px; 
+    height: 450px;
+    left:5vh;
+    top:5vh;
+    margin-top: -50px; 
     position: fixed;
 }
 
 .navigation {
     position: fixed;
     justify-content: baseline;
+    margin-top: -12px;
 }
 
 .navigation2 {
