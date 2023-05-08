@@ -78,6 +78,6 @@ li {
 
 .space {
     position: fixed;
-    top:65%;
-    left:20%;
+    margin-top:40%;
+    margin-left:18%;
 }
