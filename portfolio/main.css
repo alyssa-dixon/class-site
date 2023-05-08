@@ -188,10 +188,10 @@ body {
 }
 
 .navigation {
-    position: fixed;
+    position: relative;
     justify-content: baseline;
     margin-top: 50px;
-    margin-left: 200px;
+    align-items: center;
 }
 
 li {
