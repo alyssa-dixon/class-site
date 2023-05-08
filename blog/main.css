@@ -75,7 +75,7 @@ h1 {
 
 .sidepanel {
   height: 250px;
-  width: 0; /* 0 width - change this with JavaScript */
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;

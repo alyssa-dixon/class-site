@@ -248,7 +248,7 @@ margin:20px;
     background-color: plum;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
     font-family: 'Avara-Bold', serif;
@@ -262,7 +262,7 @@ margin:20px;
 
 .dropdown {
     position: fixed;
-    margin-top:0
+    margin-top:0;
 }
   
 

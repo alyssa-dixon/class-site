@@ -75,3 +75,9 @@ body {
 li {
     list-style-type: none;
 }
+
+.space {
+    position: fixed;
+    top:70%;
+    left:27%;
+}
