@@ -7,21 +7,21 @@ img {
 }
 
 body {
-    background: lightslategray;
+    background: lavender;
     font-size: medium;
     font-family:Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
 p {
-    color: bisque;
+    color: lightslategray;
     position:relative;
     left:20%;
     max-width: 350px;
 }
 
 h1 {
-    color: bisque;
+    color: lightslategray;
     position: relative;
     text-align: center;
     margin-bottom: 50px;
@@ -80,7 +80,7 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: bisque;
+  background-color: lightslategray;
   overflow-x: hidden;
   padding-top: 30px;
   transition: 0.5s;
@@ -91,13 +91,13 @@ h1 {
   padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: lavender;
   display: block;
   transition: 0.3s;
 }
 
 .sidepanel a:hover {
-  color: rgb(205, 162, 144);
+  color: rgb(114, 135, 42);
 }
 
 .sidepanel .closebtn {
@@ -111,25 +111,25 @@ h1 {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: bisque;
-  color: lightslategray;
+  background-color: lightslategray;
+  color: lavender;
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: rgb(205, 162, 144);
+  background-color: rgb(114, 135, 42);
 }
 
 a {
     text-decoration: none;
-    color: bisque;
+    color: lightslategray;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 a:hover {
-    color:peru;
+    color:rgb(114, 135, 42);
     transition: 0.5s;
 
 }
@@ -138,4 +138,5 @@ a:hover {
     position: fixed;
     right:30px;
     top:20px;
+    font-size: larger;
 }

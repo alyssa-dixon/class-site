@@ -7,21 +7,20 @@ img {
 }
 
 body {
-    background: lightslategray;
-    font-size: medium;
+    background: palevioletred;
     font-family:Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
 p {
-    color: bisque;
+    color: purple;
     position:relative;
     left:20%;
     max-width: 350px;
 }
 
 h1 {
-    color: bisque;
+    color: purple;
     position: relative;
     text-align: center;
     margin-bottom: 50px;
@@ -58,13 +57,6 @@ h1 {
     margin-left: -250px;
   }
 
-.sticker {
-    background:white;
-    width:100px;
-    height:100px;
-    cursor:grab;
-}
-
 .draggable {
     cursor: grab;
 }
@@ -76,7 +68,7 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: bisque;
+  background-color: purple;
   overflow-x: hidden;
   padding-top: 30px;
   transition: 0.5s;
@@ -87,13 +79,13 @@ h1 {
   padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: palevioletred;
   display: block;
   transition: 0.3s;
 }
 
 .sidepanel a:hover {
-  color: rgb(205, 162, 144);
+  color:white;
 }
 
 .sidepanel .closebtn {
@@ -107,24 +99,31 @@ h1 {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: bisque;
-  color: lightslategray;
+  background-color: purple;
+  color: palevioletred;
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: rgb(205, 162, 144);
+  background-color: white;
 }
 
 a {
     text-decoration: none;
-    color: bisque;
+    color: white;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 a:hover {
-    color:peru;
+    color:white;
     transition: 0.5s;
+}
+
+.end {
+  position: fixed;
+  right:30px;
+  top:20px;
+  font-size: larger;
 }
