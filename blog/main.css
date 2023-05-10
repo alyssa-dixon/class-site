@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Basteleur-Moonlight';
+    src: url('Basteleur-Moonlight.woff') format('woff'),
+         url('Basteleur-Moonlight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 img {
     background-color: transparent;
 }
@@ -21,6 +29,7 @@ p {
 }
 
 h1 {
+    font-family: 'Basteleur-Moonlight', serif;
     color: lightslategray;
     position: relative;
     text-align: center;
@@ -109,6 +118,7 @@ h1 {
 }
 
 .openbtn {
+  font-family: 'Basteleur-Moonlight', serif;
   font-size: 20px;
   cursor: pointer;
   background-color: lightslategray;
@@ -122,6 +132,7 @@ h1 {
 }
 
 a {
+    font-family: 'Basteleur-Moonlight', serif;
     text-decoration: none;
     color: lightslategray;
     margin-top: 25px;

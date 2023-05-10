@@ -2,13 +2,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Basteleur-Moonlight';
+  src: url('Basteleur-Moonlight.woff') format('woff'),
+       url('Basteleur-Moonlight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 img {
     background-color: transparent;
 }
 
 body {
-    background: palevioletred;
-    font-family:Arial, Helvetica, sans-serif;
+    background: orange;
     overflow-x: hidden;
 }
 
@@ -17,6 +24,7 @@ p {
     position:relative;
     left:20%;
     max-width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -24,6 +32,7 @@ h1 {
     position: relative;
     text-align: center;
     margin-bottom: 50px;
+    font-family:'Basteleur-Moonlight', serif;
 }
 
 .align {
@@ -79,10 +88,12 @@ h1 {
   padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 25px;
-  color: palevioletred;
+  color: orange;
   display: block;
   transition: 0.3s;
+  font-family:'Basteleur-Moonlight', serif;
 }
+
 
 .sidepanel a:hover {
   color:white;
@@ -97,10 +108,11 @@ h1 {
 }
 
 .openbtn {
+  font-family:'Basteleur-Moonlight', serif;
   font-size: 20px;
   cursor: pointer;
   background-color: purple;
-  color: palevioletred;
+  color: orange;
   padding: 10px 15px;
   border: none;
 }
@@ -111,14 +123,15 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: purple;
     margin-top: 25px;
     margin-bottom: 25px;
+    font-family:'Basteleur-Moonlight', serif;
 }
 
 a:hover {
     color:white;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 .end {
