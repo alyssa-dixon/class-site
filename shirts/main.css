@@ -9,6 +9,19 @@
     align-items: center;
 }
 
+a {
+    font-size: 30px;
+    position: fixed;
+    color: red;
+    font-family: cursive;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
 p {
     color: black;
     font-family: cursive;
