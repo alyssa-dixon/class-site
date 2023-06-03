@@ -27,7 +27,7 @@ p {
     font-family: 'Avara-Bold', serif;
     font-size: medium;
     position: relative;
-    top:-80px;
+    top:-90px;
     left:-60px;
 }
 
@@ -80,7 +80,7 @@ li {
 .space {
     position: relative;
     margin-top:50px;
-    left: 20%;
+    left: 35%;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
