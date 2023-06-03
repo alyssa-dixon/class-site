@@ -38,7 +38,6 @@ a {
     padding:0px;
     line-height: 30px;
     text-decoration: none ;
-    margin-left: 40px;
 }
 
 a:hover {
@@ -55,7 +54,7 @@ body {
     /* background-color: rgb(229, 82, 82); */
     width: 500px;
     height: 450px;
-    left:20vw;
+    left:5%;
     top:5vh;
     margin-top: -50px; 
     position: relative;
@@ -64,13 +63,13 @@ body {
 .navigation {
     position: relative;
     margin-top: -60px;
-    left: 10%;
+    left: 5%;
 }
 
 .navigation2 {
     position: relative;
     margin-top: 90px;
-    left: 10%;
+    left: 5%;
 }
 
 li {
@@ -80,7 +79,7 @@ li {
 .space {
     position: relative;
     bottom:10%;
-    left: 35%;
+    left: 50%;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
