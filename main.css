@@ -25,9 +25,10 @@ p {
     color:black;
     text-align: center;
     font-family: 'Avara-Bold', serif;
-    margin-top: -70px;
-    margin-bottom: 60px;
     font-size: medium;
+    position: relative;
+    top:-80px;
+    left:-60px;
 }
 
 a {
@@ -47,7 +48,6 @@ a:hover {
 
 body {
     background: lavender;
-    padding-bottom: 20%;
 
 }
 
@@ -55,22 +55,22 @@ body {
     /* background-color: rgb(229, 82, 82); */
     width: 500px;
     height: 450px;
-    left:5px;
-    top:40px;
+    left:20vw;
+    top:5vh;
     margin-top: -50px; 
-    position: fixed;
+    position: relative;
 }
 
 .navigation {
-    position: fixed;
-    justify-content: baseline;
-    margin-top: 200px;
+    position: relative;
+    margin-top: -50px;
+    left: 10%;
 }
 
 .navigation2 {
-    position: fixed;
-    justify-content: baseline;
-    margin-top: 590px;
+    position: relative;
+    margin-top: 90px;
+    left: 10%;
 }
 
 li {
@@ -78,9 +78,9 @@ li {
 }
 
 .space {
-    position: fixed;
-    margin-top:550px;
-    margin-left:250px;
+    position: relative;
+    margin-top:50px;
+    left: 20%;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
