@@ -63,7 +63,7 @@ body {
 
 .navigation {
     position: relative;
-    margin-top: -50px;
+    margin-top: -60px;
     left: 10%;
 }
 
@@ -79,7 +79,7 @@ li {
 
 .space {
     position: relative;
-    margin-top:50px;
+    bottom:10%;
     left: 35%;
 }
 
