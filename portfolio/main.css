@@ -219,19 +219,31 @@ li {
     position:absolute;
     top:50%;
     transform:translateY(-50%);
-    background:lightgray;
+    background:plum;
     border:0;
     cursor:pointer;
     z-index:999;
   }
   
-  .prev {
-    left:0;
-  }
+.prev {
+    left:-30px;
+    width: 30px;
+    height:25px;
+}
   
-  .next {
-    right:0;
-  }
+.next {
+    right:-70px;
+    width: 30px;
+    height:25px;
+}
+
+.prev:hover {
+    background-color:white;
+}
+
+.next:hover {
+    background-color:white;
+}
 
 
 .numbertext {
