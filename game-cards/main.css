@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Karrik-Regular';
+    src: url('Karrik-Regular.woff') format('woff'),
+         url('Karrik-Regular.woff2') format('woff2'),
+         url('Karrik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin:20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+    
+
+h1 {
+    font-family: 'Karrik-Regular', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Karrik-Regular', sans-serif;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Karrik-Regular', sans-serif;
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: brown;
+}

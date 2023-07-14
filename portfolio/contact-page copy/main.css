@@ -1,0 +1,53 @@
+
+
+body {
+    background:black;
+}
+
+p {
+    color: plum;
+    font-size: 30px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1000px;
+}
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+h1 {
+    color:plum;
+    padding:10px;
+    margin-bottom: -15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+
+h1:hover {
+    color: yellow;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap:10px;
+
+}
+
+a {
+    font-family:Arial, Helvetica, sans-serif;
+    color:plum;
+    font-size:30px;
+    padding:10px;
+    line-height: 50px;
+}
+
+a:hover {
+    color: yellow;
+}
