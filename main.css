@@ -40,9 +40,9 @@ h1 {
     color: rgb(194, 222, 132);
 }
 
-h1:hover {
+/* h1:hover {
     color: black;
-}
+} */
 
 .nametag {
     position: absolute;
