@@ -23,12 +23,12 @@
 
 
 body {
-    background: lavender;
+    background: white;
 }
 
 
 h3 {
-    color: olive;
+    color: black;
     font-family: 'Avara-Bold',serif;
     text-align: center;
     font-size: 30px;
@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-    color: plum;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     max-width: 450px;
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: plum;
+    color: black;
     font-family: 'Avara-Bold', serif;
     text-decoration: none;
     font-size: medium;

@@ -32,12 +32,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Trickter-Regular';
+    src:
+         url('Trickter-Regular.woff2') format('woff2'),
+         url('Trickter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
     font-family: 'PicNic-Regular', sans-serif;
     text-align: center;
     font-size: 70px;
     margin-bottom: 50px;
-    color: rgb(194, 222, 132);
+    color: black;
 }
 
 /* h1:hover {
