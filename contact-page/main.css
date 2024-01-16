@@ -1,15 +1,24 @@
 
 
 body {
-    background:black;
+    background:white;
+}
+
+@font-face {
+    font-family: 'PicNic-Regular';
+    src: url('PicNic-Regular.woff') format('woff'),
+         url('PicNic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 p {
-    color: plum;
-    font-size: 30px;
+    color: black;
+    font-size: 25px;
     padding:10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 1000px;
+    max-width: 2000px;
+    align-items: center;
 }
 
 
@@ -17,18 +26,21 @@ p {
     display:flex;
     flex-direction: column;
     z-index: -1;
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+    text-align: justify;
 }
 
 h1 {
-    color:plum;
-    padding:10px;
+    color:black;
+    padding:18px;
     margin-bottom: -15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'PicNic-Regular', sans-serif;
     list-style-type: none;
 }
 
 h1:hover {
-    color: yellow;
+    color: peru;
 }
 
 .flex {
@@ -43,12 +55,28 @@ h1:hover {
 
 a {
     font-family:Arial, Helvetica, sans-serif;
-    color:plum;
-    font-size:30px;
-    padding:10px;
+    color:black;
+    font-size:25px;
+    padding:15px;
     line-height: 50px;
+    text-align:justify;
+}
+
+i {
+    color:peru;
+}
+
+.align {
+    text-align: center;
+    padding:0px;
+    font-size: 32px;
+}
+
+.email {
+    text-align:center;
+    margin-top: -30px;padding:0;
 }
 
 a:hover {
-    color: yellow;
+    color: peru;
 }
