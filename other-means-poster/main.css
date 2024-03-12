@@ -48,17 +48,24 @@ p {
     text-align:left;
 }
 
-a {
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    background-color: white;
     font-family: 'Karrik-Regular', sans-serif;
+    margin-bottom: -150px;
+}
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
     text-decoration: none;
-    margin-top: 100px;
-    font-size: 30px;
-    position: absolute;
-    bottom:5%;
-    right:5%;
-    
-}
-
-a:hover {
+    font-size:x-large;
+  }
+  
+  li a:hover {
     background-color: rgb(194, 222, 132);
-}
+    color: white;
+  }

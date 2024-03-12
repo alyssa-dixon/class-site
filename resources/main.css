@@ -23,11 +23,11 @@
 
 
 body {
-    background: lavender;
+    background: white;
 }
 
 p {
-    color: olive;
+    color: peru;
     font-family: 'Curvature-Regular';
     font-size: 150px;
     margin-bottom: -30px;
@@ -37,7 +37,7 @@ p {
 
 
 a {
-    color: plum;
+    color: peru;
     font-family: 'Avara-Bold', serif;
     text-decoration: none;
     font-size: xx-large;
@@ -49,7 +49,7 @@ li {
 }
 
 a:hover {
-    color: olive;
+    color: black;
 }
 
 .space {
@@ -62,6 +62,6 @@ a:hover {
 
 .end {
     position: fixed;
-    right:30px;
+    left:30px;
     top:20px;
 }
