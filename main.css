@@ -43,23 +43,24 @@
 
 
 
-h1 {
+/* h1 {
     font-family: 'PicNic-Regular', sans-serif;
     text-align: center;
     font-size: 70px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
-}
+} */
 
 /* h1:hover {
     color: black;
 } */
 
-.nametag {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top:-180px;
   }
 
 .flex {
@@ -82,7 +83,7 @@ ul {
     width: 200px;
     background-color: white;
     font-family: 'Karrik-Regular', sans-serif;
-    margin-bottom: -150px;
+    margin-bottom: 100px;
 }
   
   li a {
